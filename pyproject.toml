@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "template"
+version = "1.0.0"
+description = "Python Workspace template"
+authors = ["Federico Palma"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
