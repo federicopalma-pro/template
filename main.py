@@ -1,5 +1,8 @@
+from components import text_up
+
+
 def main():
-    pass
+    print(text_up("hello world"))
 
 
 if __name__ == "__main__":
